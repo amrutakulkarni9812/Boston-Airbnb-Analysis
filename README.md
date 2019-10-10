@@ -22,17 +22,21 @@ The jupyter notebook available here includes the code required to load, clean, e
 Motivation behind this project is to answer some of the business questions and to understand the trends if any for future decision making.
 
 ### A few questions answered in this project:
-1. How some of the features correlate with the pricing?
-2. How to get maximum return by investing in right place/type of property?
-3. How some of the features correlate with the reviews?
+1. How is price fluctuating over time?
+2. How some of the features correlate with the pricing?
+3. How to get maximum return by investing in right place/type of property?
+4. How some of the features correlate with the reviews?
+5. What do home owners emphasize in their descriptions?
+6. What are most important things to tenants?
 
 ## Data Preparation
-This dataset has 3,585 observations and 95 features. The target features for analysis are price, review_scores_rating. To proceed with the analysis, data wrangling should be done as this data set is really messy.
+This being a real world dataset, requires some data cleaning and wrangling.
 
-1. I had to clean up the values in several columns: the price column had a dollar sign ($) and comma (,) characters and was in object format. I removed these so the data can be translated into an integer.
-2. The data types for other columns like the number of bedrooms, bathrooms, accommodates also required a change so they can be used in calculations.
-3. Few columns such as neighbourhood_group_cleansed, jurisdiction_names, license, has_availability were dropped from the dataset as there were no recordings associated with them. These were all empty columns present in the data.
-4. City column had a lot of duplicate entries with few case-sensitive entries, space addition issues, etc. All replicates were replaced with a single city code name and this cleaned data was put into a new column called city_cleansed in listings data. 5. City column also had an unusual entry in some native language which was considered for dropping because there was only one entry as such and I was not losing so much data dropping it.
+1. In order to compute average price with respect to other features, I needed to convert it to float and remove special characters from it.
+2. In order to create a year-month column, I needed to convert date column to datetime type and extract only years and months.
+3. I converted a few columns to integer for numerical analysis. e.g. number of bedrooms, number of bathrooms etc.
+4. I removed the columns with all null values, since they don't provide any information. e.g. neighbourhood_group_cleansed, jurisdiction_names, license, has_availability.
+5. I cleaned the city column by cleaning upper case and lower case, spaces, special characters and standardizing them. City column also had one unusual entry in asian script '波士顿' which I dropped. 
 
 ## Results
 The main observations of the code are published in this blog here {}.
