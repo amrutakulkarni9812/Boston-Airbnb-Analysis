@@ -2,7 +2,21 @@
 This repository provides a few interesting insights into Boston Airbnb data.
 
 ## Introducing the datasets
-Data for analyzing trends in Boston Airbnb is available on [kaggle](https://www.kaggle.com/airbnb/boston). This dataset contains data on listings with a huge number of features, user's reviews and calendar info for Airbnb homes in Boston.
+Data for analyzing trends in Boston Airbnb is available on [kaggle](https://www.kaggle.com/airbnb/boston).
+There are 3 datasets. 
+  1. Listings, including full descriptions and average review score 
+  2. Reviews, including unique id for each reviewer and detailed comments 
+  3. Calendar, including listing id and the price and availability for that day
+  
+## File Descriptions
+### Readme
+This file provides high level overview of the work done in project.
+### Code
+The jupyter notebook available here includes the code required to load, clean, explore the data and answer the questions.
+### Data
+1. calendar.csv 
+2. listings.csv
+3. reviews.csv
 
 ## Project Motivation
 I chose this project to understand the trends of Airbnb in Boston area and analysis is done through addressing the following questions.
