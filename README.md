@@ -2,7 +2,7 @@
 This repository provides a few interesting insights into Boston Airbnb data.
 
 ## Introducing the datasets
-Data for analyzing trends in Boston's Airbnb is available for free [https://www.kaggle.com/airbnb/boston]. This dataset contains data on listings with a huge number of features, user's reviews and calendar info for Airbnb homes in Boston.
+Data for analyzing trends in Boston Airbnb is available [here](https://www.kaggle.com/airbnb/boston). This dataset contains data on listings with a huge number of features, user's reviews and calendar info for Airbnb homes in Boston.
 
 ## Project Motivation
 I chose this project to understand the trends of Airbnb in Boston area and analysis is done through addressing the following questions.
