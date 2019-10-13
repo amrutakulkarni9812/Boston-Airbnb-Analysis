@@ -39,4 +39,4 @@ This being a real world dataset, requires some data cleaning and wrangling.
 5. I cleaned the city column by cleaning upper case and lower case, spaces, special characters and standardizing them. City column also had one unusual entry in asian script '波士顿' which I dropped. 
 
 ## Results
-The main observations of the code are published in this blog here {}.
+The main observations of the code are published in this blog [on medium.com](https://medium.com/@amrutakulkarni9812/boston-airbnb-analysis-90564e8a44fb?sk=dacbfd0d9cd59060215de3bc7ed3b938).
