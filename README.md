@@ -1,4 +1,6 @@
-![Boston Airbnb](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj25oPWmpzlAhWwzIUKHW5TDlMQjhx6BAgBEAI&url=http%3A%2F%2Fmassrealestatelawblog.com%2F2018%2F11%2F13%2Fairbnb-seeks-federal-injunction-against-boston-short-term-rental-rules%2F&psig=AOvVaw1Kw_p1JDPGljDlXZy--iwp&ust=1571158119900165 "Logo Title Text 1")
+![Boston Airbnb](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwj25oPWmpzlAhWwzIUKHW5TDlMQjhx6BAgBEAI&url=http%3A%2F%2Fmassrealestatelawblog.com%2F2018%2F11%2F13%2Fairbnb-seeks-federal-injunction-against-boston-short-term-rental-rules%2F&psig=AOvVaw1Kw_p1JDPGljDlXZy--iwp&ust=1571158119900165)
+
+![alt text](http://url/to/img.png)
 
 # Boston_Airbnb_Analysis
 This repository provides a few interesting insights into Boston Airbnb data.
