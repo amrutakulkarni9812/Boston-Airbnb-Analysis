@@ -1,7 +1,7 @@
 ![Alt text](http://massrealestatelawblog.com/wp-content/uploads/sites/9/2018/11/cropped-airbnbjpg-daa5146c722ed3c1.jpg?raw=true "Boston Airbnb")
 # Boston_Airbnb_Analysis
 This repository provides a few interesting insights into Boston Airbnb data.
-# Installation
+## Installation
 For running this project, the most important library is Python 3 version of Anaconda Distribution. It installs all necessary packages for analysis and building models.
 ## Introducing the datasets
 Data for analyzing trends in Boston Airbnb is available on [kaggle](https://www.kaggle.com/airbnb/boston).
