@@ -12,12 +12,12 @@ There are 3 datasets.
 ## File Description
 ### Readme
 This file provides high level overview of the work done in project.
-### Code
-The jupyter notebook available here includes the code required to load, clean, explore and visualize the data and answer the questions.
 ### Data
 1. calendar.csv 
 2. listings.csv
 3. reviews.csv
+### Code
+The jupyter notebook available here includes the code required to load, clean, explore and visualize the data and answer the questions.
 ## Project Motivation
 Motivation behind this project is to answer some of the business questions and to understand the trends if any for future decision making.
 ## Data Preparation
